@@ -7,7 +7,7 @@ output: html_document
 
 FOR EMILY WILSON
 Memo from your newsroom describing the project:
-
+yes it works
 We recently released our 2026 Ad Impressions Study, an end-user/consumer survey that measures the effectiveness/longevity of promotional products, in comparison to other advertising mediums.
  
 I’ve attached the raw Ad Impressions data, and here’s the article we published about the study: https://members.asicentral.com/news/strategy/march-2026/asi-s-2026-ad-impressions-study-5-compelling-takeaways/
