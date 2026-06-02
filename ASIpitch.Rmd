@@ -16,6 +16,10 @@ The pitch has been discussed with my editors at Advertising Specialty Institute 
 
 The bulk of my work over the course of this week will be to source data on the carbon and water usage from the different cotton blends and document that process. I’ve also created an empty table to help visualize the data I’ll need to find. Rows 4 and 5 are calculations I'll complete once rows 1 and 3 are done. 
 
+**rsw comment: this is exactly what we discussed yesterday afternoon and you have done a good job creating the foundation for this research report. keep on this track.**
+**One error throughout is you need to load your libraries and data first. none of this will run otherwise, for example: library(tidyverse) etc**
+**The code fails below because us_ads has not been loaded. make sure to load all of your data and software libraries first**
+**Let's get this page rendered as a web page today**
 
 ```{r}
 asi_data_needed <- rio::import("https://docs.google.com/spreadsheets/d/1HyKYvl8NUcbQiNJRf6-M9yBzVGHWB8zAVFOjiHMVTeI/edit?gid=0#gid=0") 
@@ -46,6 +50,8 @@ Theresa provided another website that I could potentially use to find data: The 
 
 
 Here is my R code for the specific T-shirt data: 
+
+**rsw comment: this code fails because us_ads has not been loaded. make sure to load all of your data and software libraries first**
 
 ```{r}
 
