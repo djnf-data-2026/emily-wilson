@@ -5,13 +5,10 @@ date: "6-2-2026"
 format:
   html:
     theme: cosmo
+editor_options: 
+  chunk_output_type: inline
 ---
 # Intro 
-Emily Wilson
-ASI DJNF pitch memo
-June 1, 2026
-
-
 My story is examining the environmental impact of different materials used to make T-shirts — one of the most common promotional products distributed in the United States. The environmental impact is measured by carbon footprint and water usage, and the materials I’ll be looking at are five different types of cotton blends. To put the environmental impact into context, I’ll work in data from Advertising Specialty Institute’s 2026 end-user survey about impressions and longevity, and the company’s calculation of impressions over lifespan for T-shirts (3,500).  
 
 The pitch has been discussed with my editors at Advertising Specialty Institute and largely green-lit. The company’s audience is the promotional products industry, so the intention with this story is to give readers more information on the types of t-shirts they’re buying. There are lots of factors to consider — price, quality, etc — but more organized information about the different materials used to make t-shirts and its respective environmental impact might be helpful for potential buyers to consider. 
@@ -26,11 +23,19 @@ library(googlesheets4)
 library(googledrive)
 library(janitor)
 ```
+```{r}
+#| include: false
+asi_data_needed <- rio::import("https://docs.google.com/spreadsheets/d/1HyKYvl8NUcbQiNJRf6-M9yBzVGHWB8zAVFOjiHMVTeI/edit?gid=0#gid=0") 
 ```
-
 
 ```{r}
 #| include: false
 asi_data_needed <- rio::import("https://docs.google.com/spreadsheets/d/1HyKYvl8NUcbQiNJRf6-M9yBzVGHWB8zAVFOjiHMVTeI/edit?gid=0#gid=0") 
 ```
+
+```{r}
+#| echo: false
+asi_data_needed
+```
+
 
