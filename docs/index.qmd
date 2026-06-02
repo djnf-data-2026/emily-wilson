@@ -1,7 +1,7 @@
 ---
-title: "Hosting a GitHub Page"
-author: "Rob Wells"
-date: "5-29-2026"
+title: "Environmental Impact of T-shirt Production"
+author: "Emily Wilson"
+date: "6-2-2026"
 format:
   html:
     theme: cosmo
