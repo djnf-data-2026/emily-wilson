@@ -25,41 +25,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -115,154 +80,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="test" class="level1">
-<h1>test</h1>
-</section>
-<section id="hosting-a-github-page---r-cheat-sheet" class="level1">
-<h1>Hosting a GitHub Page - R Cheat Sheet</h1>
-<p>This exercise will allow you to create a basic web page which will be required for the Investigate Your Community final project option.</p>
-<p>For this exercise, you will create a page with your one paragraph story idea. You will then host it on your GitHub page.</p>
-<section id="styled-text" class="level2">
-<h2 class="anchored" data-anchor-id="styled-text">Styled Text</h2>
-<p>At the core, QMD files are text files, and they allow you to use a very lightweight “markup” language to style text, similar to html, but much less fussy.</p>
-<p>Outside of the codeblocks (the gray sections where we write code), we can style any text using standard markdown styling.</p>
-<p>This is a nice guide to styling text with markdown: <a href="https://quarto.org/docs/authoring/markdown-basics.html">Markdown guide</a></p>
-<p>We can create headings similar to html’s h1 to h6 with hashtags.</p>
-<section id="this-is-an-h5" class="level5">
-<h5 class="anchored" data-anchor-id="this-is-an-h5">This is an h5</h5>
-<p>We can create links, like this: <a href="https://google.com">google</a></p>
-<p>We can <strong>bold</strong> or <em>italic</em> text.</p>
-<p>We can create bulleted lists.</p>
-<ul>
-<li>bullet one</li>
-<li>bullet two</li>
-<li>bullet three</li>
-</ul>
-</section>
-</section>
-<section id="code-blocks" class="level2">
-<h2 class="anchored" data-anchor-id="code-blocks">Code blocks</h2>
-<p>We can also add special code inside of code blocks – the gray sections where we write code – that control how they render in our html document. These output options let us do things like:</p>
-<ul>
-<li>Show or hide the code when we render our html document (echo: true or false)</li>
-<li>Prevent the code from actually running when we render our html document (eval: true or false)</li>
-<li>Hide warnings from outputing when we render our html document (warning: true or false)</li>
-</ul>
-<p>There’s a <a href="https://quarto.org/docs/computations/execution-options.html#output-options">full guide here</a>.</p>
-<p>The code below, for example, will output the text inside the print statement when rendered to html, but the actual code – the print() function – will be hidden.</p>
-</section>
-<section id="create-your-website" class="level2">
-<h2 class="anchored" data-anchor-id="create-your-website">Create your website</h2>
-<p>In place of these instructions, you will paste your project one paragraph story idea into this document and any code you’ve developed so far.</p>
-<p>You will need to load libraries and data because rendering a page requires a full R session to execute on the code.</p>
-<p>First, create H1 headers</p>
-<p><strong>For example:</strong></p>
-</section>
-</section>
-<section id="income-and-vacancies-of-baltimore-neighborhoods-2020" class="level1">
-<h1>Income and Vacancies of Baltimore Neighborhoods 2020</h1>
-<section id="looking-at-wealth-inequality-in-charm-city" class="level2">
-<h2 class="anchored" data-anchor-id="looking-at-wealth-inequality-in-charm-city">Looking at wealth inequality in Charm City</h2>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># You will write your code in chunks but not execute the data. Use {r eval=FALSE, include=TRUE} in the header so the page will render without running the actual code.</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>income_vacancy <span class="sc">%&gt;%</span> </span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> community)) <span class="sc">+</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">y=</span>income_2020), <span class="at">color =</span> <span class="st">"#64D197"</span>, <span class="at">stroke=</span><span class="dv">5</span>) <span class="sc">+</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="fu">aes</span>(<span class="at">y=</span>vacant_2020<span class="sc">*</span><span class="dv">1000</span>), <span class="at">stroke=</span><span class="dv">5</span>, <span class="at">color =</span> <span class="st">"#FB8AE3"</span>) <span class="sc">+</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_y_continuous</span>(</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="at">name =</span> <span class="st">"2020 Income (Green)"</span>, <span class="at">limits=</span><span class="fu">c</span>(<span class="dv">0</span>, <span class="dv">62000</span>), <span class="at">labels=</span>scales<span class="sc">::</span><span class="fu">dollar_format</span>(),</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="at">sec.axis =</span> <span class="fu">sec_axis</span>(<span class="sc">~</span>.<span class="sc">/</span><span class="dv">60000</span>, <span class="at">name=</span><span class="st">"2020 Percent Vacancies (Red)"</span>, <span class="at">labels =</span> scales<span class="sc">::</span>percent))<span class="sc">+</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="co">#scale_y_continuous(labels = scales::percent) +</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Income and Vacancies of Baltimore Neighborhoods 2020"</span>,</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">x =</span> <span class="st">"Community"</span>,</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="at">caption =</span> <span class="st">"source: BNIA Data - By: Parker Leipzig and Rob Wells"</span></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
-</section>
-<section id="set-up-for-hosting" class="level2">
-<h2 class="anchored" data-anchor-id="set-up-for-hosting">Set up for hosting</h2>
-<ul>
-<li>Create a new folder in your repository called “docs” (if one isn’t there already)</li>
-<li>Rename this document as “index.qmd”</li>
-<li>Move “index.qmd” into the “docs” folder</li>
-</ul>
-</section>
-<section id="render-this-document-as-an-html-page" class="level2">
-<h2 class="anchored" data-anchor-id="render-this-document-as-an-html-page">Render this document as an html page</h2>
-<ul>
-<li>Make sure this document is named “index.qmd” and is in the “docs” folder</li>
-<li>Click Render button. It will create an html version of this page, called “index.html”</li>
-<li>Use GitHub Desktop to push your files to your your github repository on the web.</li>
-<li>Access the URL from your Github repository.</li>
-</ul>
-</section>
-<section id="host-html-on-github" class="level2">
-<h2 class="anchored" data-anchor-id="host-html-on-github">Host html on GitHub</h2>
-<ul>
-<li>Go to your github repository on the web, such as https://github.com/djnf-data-2026/casey-mann</li>
-<li>Click on Settings on the top right.</li>
-<li>Scroll down to the Pages section of Settings.</li>
-<li>Change the Branch to /docs and click save.</li>
-</ul>
-<section id="to-see-your-file-hosted" class="level4">
-<h4 class="anchored" data-anchor-id="to-see-your-file-hosted">To see your file hosted:</h4>
-<ul>
-<li>Back to your GitHub repo on the web: such as https://github.com/djnf-data-2026/casey-mann</li>
-<li>Click on Settings, then Pages</li>
-<li>Under GitHub Pages, you should see “Your site is live at https://djnf-data-2026.github.io/casey-mann/”</li>
-<li>Click that URL</li>
-<li>If it works, email it to robwells@umd.edu</li>
-</ul>
-</section>
-</section>
-<section id="revel-in-your-nerd-powers" class="level2">
-<h2 class="anchored" data-anchor-id="revel-in-your-nerd-powers">REVEL IN YOUR NERD POWERS</h2>
-</section>
-</section>
-<section id="part-2-embedding-images" class="level1">
-<h1>Part 2: Embedding Images</h1>
-<ul>
-<li><p>create a folder in your repository’s main branch, call it images</p></li>
-<li><p>find any .jpeg, .jpg or .png file and insert it into that folder.</p></li>
-<li><p>In a QMD file, display the image as follows:</p></li>
-</ul>
-<p>#<img src="images/your_link_here.png" class="img-fluid" alt="CAPTION FOR YOUR PHOTO"></p>
-<p>#<img src="images/xl-refresher-grid_SHEETS.png" class="img-fluid" alt="CHATTER FOR YOUR chart"></p>
-<p>A more advanced technique controlling the width and height</p>
-<p>#<img src="images/xl-refresher-SHEETS_screen.png" class="img-fluid" style="width:100.0%" alt="Read the Screen"></p>
-<section id="embedding-code" class="level3">
-<h3 class="anchored" data-anchor-id="embedding-code">Embedding code</h3>
-<p>From a <strong>Datawrapper Map</strong></p>
-<iframe title="Small Business Reporting, Spring 2024" aria-label="Map" id="datawrapper-chart-z4bny" src="https://datawrapper.dwcdn.net/z4bny/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="500" data-external="1">
-</iframe>
-<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
-</script>
-</section>
-<section id="embedding-video" class="level2">
-<h2 class="anchored" data-anchor-id="embedding-video">Embedding video</h2>
-<section id="deep-nerd-video" class="level3">
-<h3 class="anchored" data-anchor-id="deep-nerd-video">Deep Nerd Video</h3>
-<div id="first_steps">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TNP_unReOpw?si=CQC3cG49TShkoJOG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-</iframe>
-</div>
-</section>
-<div id="second_steps">
-<section id="a-great-lecture-on-structural-racism-in-journalism" class="level3">
-<h3 class="anchored" data-anchor-id="a-great-lecture-on-structural-racism-in-journalism">A great lecture on structural racism in journalism</h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DIDHbEZYFSc?si=a-KNzlQgoGjXD6VV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
-</iframe>
-</section>
-</div>
-<p><strong>Now replace these two videos with something you selected.</strong></p>
-<p>The embed code is in the video share feature</p>
-</section>
-<section id="instructions-to-embed-a-gif" class="level2">
-<h2 class="anchored" data-anchor-id="instructions-to-embed-a-gif">Instructions to embed a gif</h2>
-<p>This is a very basic starter but it will get you to the finish line on Saturday. Good luck!</p>
-<p>–30–</p>
-</section>
+<section id="intro" class="level1">
+<h1>Intro</h1>
+<p>Emily Wilson ASI DJNF pitch memo June 1, 2026</p>
+<p>My story is examining the environmental impact of different materials used to make T-shirts — one of the most common promotional products distributed in the United States. The environmental impact is measured by carbon footprint and water usage, and the materials I’ll be looking at are five different types of cotton blends. To put the environmental impact into context, I’ll work in data from Advertising Specialty Institute’s 2026 end-user survey about impressions and longevity, and the company’s calculation of impressions over lifespan for T-shirts (3,500).</p>
+<p>The pitch has been discussed with my editors at Advertising Specialty Institute and largely green-lit. The company’s audience is the promotional products industry, so the intention with this story is to give readers more information on the types of t-shirts they’re buying. There are lots of factors to consider — price, quality, etc — but more organized information about the different materials used to make t-shirts and its respective environmental impact might be helpful for potential buyers to consider.</p>
+<p>The bulk of my work over the course of this week will be to source data on the carbon and water usage from the different cotton blends and document that process. I’ve also created an empty table to help visualize the data I’ll need to find. Rows 4 and 5 are calculations I’ll complete once rows 1 and 3 are done.</p>
+<p>```</p>
 </section>
 
 </main>
