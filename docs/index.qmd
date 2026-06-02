@@ -74,6 +74,27 @@ tshirt_impressions <- impressions %>% select("item", "t_shirts")
 
 tshirt_impressions
 ```
+```{r}
+#| include: false
+longevity <- us_ads[118:131, ]
+
+colnames(longevity) <- longevity[1, ]
+
+longevity <- longevity |>
+  clean_names() |>
+  as_tibble()
+
+longevity <- longevity[-1, ] |>
+  mutate(across(2:21, as.numeric)) |>
+  rename(item = na)
+```
+```{r}
+#| include: false
+tshirt_longevity <- longevity %>% select("item", "t_shirts")
+```
+```{r}
+tshirt_longevity
+```
 
 
 ## Note: 
