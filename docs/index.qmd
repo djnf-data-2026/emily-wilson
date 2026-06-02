@@ -39,10 +39,36 @@ asi_data_needed
 ```
 
 # Progress 
-ASI 2026 end-user survey data: 
+## ASI 2026 end-user survey data: 
 This is where the 3,500 impressions per lifespan for t-shirts come from. The metric was calculated by the newsroom from the impressions and longevity data, and I found it in this report. 
 I can also use this data for context on how often consumers wear their promo t-shirts and how many people see them when they do. In R, I’ve filtered down the dataset to only show this data. 
 Ex: Around 80% of consumers reported that they kept their T-shirts for at least a year. 
+
+```{r}
+#| include: false
+impressions <- us_ads[95:108, ]
+
+colnames(impressions) <- impressions[1, ]
+
+impressions <- impressions |>
+  clean_names() |>
+  as_tibble()
+
+impressions <- impressions[-1, ] |>
+  mutate(across(2:21, as.numeric)) |>
+  rename(item = na)
+
+impressions |> 
+  select(1:21) |> 
+  head()
+```
+```{r}
+#| echo: false
+tshirt_impressions <- impressions %>% select("item", "t_shirts")
+
+tshirt_impressions
+```
+
 
 ## Note: 
 My editor at Advertising Specialty Institute, Theresa Hegel, had initially provided some different calculators for environmental impact. The majority of those are not usable for this analysis, but helpful context for understanding the different steps in the supply chain that can have an environmental impact on the T-shirts. 
@@ -55,4 +81,6 @@ Some suppliers that consider their products sustainable create calculators to co
 
 ## Life Cycle Assessment - Cotton
 Another resource that was provided is a Life Cycle Assessment for cotton produced by Textile Exchange, a nonprofit that conducts research on sustainability in the supply chain. 
+
+
 
