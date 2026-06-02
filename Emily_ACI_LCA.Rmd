@@ -32,6 +32,14 @@ https://github.com/djnf-data-2026/emily-wilson
 
 
 ```{r include=FALSE}
+install.packages("tidyverse")
+install.packages("readxl")
+install.packages("googlesheets4")
+install.packages("googledrive")
+install.packages("janitor")
+install.packages("rio")
+```
+```{r}
 library(tidyverse)
 library(readxl)
 library(googlesheets4)
@@ -69,18 +77,71 @@ glimpse(excited)
 
 
 ```
-
-Import 2026 Ad impressions countries with USA.xlsx
+## trying to get impressions data
 ```{r}
+impressions <- us_ads[95:108, ]
 
+colnames(impressions) <- impressions[1, ]
+
+impressions <- impressions |>
+  clean_names() |>
+  as_tibble()
+
+impressions <- impressions[-1, ] |>
+  mutate(across(2:21, as.numeric)) |>
+  rename(item = na)
 ```
 
-
-Import 2026 Ad impressions Canada.xlsx
 ```{r}
 
+impressions |> 
+  select(1:21) |> 
+  head()
+
+
+```
+```{r}
+tshirt_impressions <- tshirt_impressions %>% select("item", "t_shirts")
 ```
 
+```{r}
+tshirt_impressions_filtered
+```
+## tshirt longevity
+
+```{r}
+longevity <- us_ads[118:131, ]
+
+colnames(longevity) <- longevity[1, ]
+
+longevity <- longevity |>
+  clean_names() |>
+  as_tibble()
+
+longevity <- longevity[-1, ] |>
+  mutate(across(2:21, as.numeric)) |>
+  rename(item = na)
+
+```
+```{r}
+longevity
+```
+
+```{r}
+tshirt_longevity <- longevity %>% select("item", "t_shirts")
+```
+
+```{r}
+tshirt_longevity
+```
+
+#Clean - T-shirt longevity & impressions data
+```{r}
+tshirt_longevity
+```
+```{r}
+tshirt_impressions
+```
 
 
 # Import LCA data
@@ -94,7 +155,7 @@ https://www.bonsai.uno/?mode=product&metric=GWP100&version=v2.1.6&product=C_Cott
 Here's a download of the full dataset
 ```{r}
 
-footprint <- read_csv("https://raw.githubusercontent.com/djnf-data-2026/emily-wilson/refs/heads/main/data/footprints-v2.1.6.csv?token=GHSAT0AAAAAADWDAQPHELRAA7Q4LC4JQ25Y2QTERTA") |> 
+footprint <- read_csv("https://raw.githubusercontent.com/djnf-data-2026/emily-wilson/refs/heads/main/data/footprints-v2.1.6.csv") |> 
   clean_names()
 
 glimpse(footprint)
@@ -132,7 +193,10 @@ https://epub.wupperinst.org/frontdoor/deliver/index/docId/6938/file/6938_Stadler
 ```{r}
 footprint |> 
   filter(metric == "GWP100") |> 
-  filter(str_detect(flow_code, "C_Cotton"))
+  filter(str_detect(flow_code, "C_Cotton")) |> 
+  filter(str_detect(region_code, "US"))
+ 
+
 
 #write_csv(precincts, "../data/precincts.csv")
 ```
