@@ -25,41 +25,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -119,7 +84,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>Intro</h1>
 <p>My story is examining the environmental impact of different materials used to make T-shirts — one of the most common promotional products distributed in the United States. The environmental impact is measured by carbon footprint and water usage, and the materials I’ll be looking at are five different types of cotton blends. To put the environmental impact into context, I’ll work in data from Advertising Specialty Institute’s 2026 end-user survey about impressions and longevity, and the company’s calculation of impressions over lifespan for T-shirts (3,500).</p>
 <p>The pitch has been discussed with my editors at Advertising Specialty Institute and largely green-lit. The company’s audience is the promotional products industry, so the intention with this story is to give readers more information on the types of t-shirts they’re buying. There are lots of factors to consider — price, quality, etc — but more organized information about the different materials used to make t-shirts and its respective environmental impact might be helpful for potential buyers to consider.</p>
-<p>The bulk of my work over the course of this week will be to source data on the carbon and water usage from the different cotton blends and document that process. I’ve also created an empty table to help visualize the data I’ll need to find. Rows 4 and 5 are calculations I’ll complete once rows 1 and 3 are done.</p>
+<p>The bulk of my work over the course of this week will be to source data on the carbon and water usage from the different cotton blends and document that process. I’ve also created an empty table to help visualize the data I’ll need to find. Rows 4 and 5 are calculations I’ll complete once rows 2 and 3 are done.</p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>                               V1 Conventional blend Organic blend
@@ -163,7 +128,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>tshirt_longevity</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 13 × 2
    item            t_shirts
@@ -198,7 +162,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="life-cycle-assessment---cotton" class="level2">
 <h2 class="anchored" data-anchor-id="life-cycle-assessment---cotton">Life Cycle Assessment - Cotton</h2>
-<p>Another resource that was provided is a Life Cycle Assessment for cotton produced by Textile Exchange, a nonprofit that conducts research on sustainability in the supply chain.</p>
+<p>Another resource that was provided is a Life Cycle Assessment for cotton produced by Textile Exchange, a nonprofit that conducts research on sustainability in the supply chain. This was helpful because it provided a thorough overview of the different steps in the supply chain for cotton production and compares different countries. The assessment uses nitrous oxide emissions to measure the environmental impact, as opposed to water anc carbon, so I’m not able to use it for my project.</p>
 </section>
 </section>
 
