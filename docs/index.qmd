@@ -7,7 +7,6 @@ format:
     theme: cosmo
 ---
 
-# test 
 
 # Hosting a GitHub Page - R Cheat Sheet
 
