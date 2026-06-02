@@ -46,6 +46,12 @@ Ex: Around 80% of consumers reported that they kept their T-shirts for at least 
 
 ```{r}
 #| include: false
+us_ads <- rio::import("https://github.com/djnf-data-2026/emily-wilson/raw/refs/heads/main/data/2026%20Ad%20Impressions%20US%20Products.xlsx")
+```
+
+
+```{r}
+#| include: false
 impressions <- us_ads[95:108, ]
 
 colnames(impressions) <- impressions[1, ]
