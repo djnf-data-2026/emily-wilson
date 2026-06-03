@@ -4,7 +4,7 @@ author: "Emily Wilson"
 date: "6-2-2026"
 format:
   html:
-    theme: cosmo
+    theme: cerulean
 editor_options: 
   chunk_output_type: inline
 ---
