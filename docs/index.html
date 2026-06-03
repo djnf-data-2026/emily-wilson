@@ -84,23 +84,7 @@ ul.task-list li input[type="checkbox"] {
 <h1>Intro</h1>
 <p>My story is examining the environmental impact of different materials used to make T-shirts — one of the most common promotional products distributed in the United States. The environmental impact is measured by carbon footprint and water usage, and the materials I’ll be looking at are five different types of cotton blends. To put the environmental impact into context, I’ll work in data from <a href="https://media.asicentral.com/resources/AdImpressionStudy/Ad-Impressions-2026.pdf">Advertising Specialty Institute’s 2026 end-user survey</a> about impressions and longevity, and the company’s calculation of impressions over lifespan for T-shirts (3,500).</p>
 <p>The pitch has been discussed with my editors at Advertising Specialty Institute and largely green-lit. The company’s audience is the promotional products industry, so the intention with this story is to give readers more information on the types of t-shirts they’re buying. There are lots of factors to consider — price, quality, etc — but more organized information about the different materials used to make t-shirts and its respective environmental impact might be helpful for potential buyers to consider.</p>
-<p>The bulk of my work over the course of this week will be to source data on the carbon and water usage from the different cotton blends and document that process. I’ve also created an empty table to help visualize the data I’ll need to find. Rows 4 and 5 are calculations I’ll complete once rows 2 and 3 are done.</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code>                               V1 Conventional blend Organic blend
-1                Carbon footprint                 NA            NA
-2                     Water usage                 NA            NA
-3                     Impressions               3500          3500
-4 Carbon footprint per impression                 NA            NA
-5      Water usage per impression                 NA            NA
-  Recyled blend 50/50 blend Tri-blend
-1            NA          NA        NA
-2            NA          NA        NA
-3          3500        3500      3500
-4            NA          NA        NA
-5            NA          NA        NA</code></pre>
-</div>
-</div>
+<p>The bulk of my work over the course of this week will be to source data on the carbon and water usage from the different cotton blends and document that process. I’ve also created an empty table to help visualize the data I’ll need to find. Rows 4 and 5 are calculations I’ll complete once rows 2 and 3 are done. <br> <br></p>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 19%">
@@ -169,46 +153,6 @@ ul.task-list li input[type="checkbox"] {
 <section id="asi-2026-end-user-survey-data" class="level2">
 <h2 class="anchored" data-anchor-id="asi-2026-end-user-survey-data">ASI 2026 end-user survey data:</h2>
 <p>This is where the 3,500 impressions per lifespan for t-shirts come from. The metric was calculated by the newsroom from the impressions and longevity data, and I found it in this report. I can also use this data for context on how often consumers wear their promo t-shirts and how many people see them when they do. In R, I’ve filtered down the dataset to only show this data. Ex: Around 80% of consumers reported that they kept their T-shirts for at least a year.</p>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 13 × 2
-   item                 t_shirts
-   &lt;chr&gt;                   &lt;dbl&gt;
- 1 &lt;NA&gt;                    NA   
- 2 Just me                  0.14
- 3 2-5 people               0.13
- 4 6-10 people              0.19
- 5 11-25 people             0.17
- 6 26-50 people             0.1 
- 7 51-100 people            0.12
- 8 More than 100 people    NA   
- 9 101-500 people          NA   
-10 More than 500 people     0.05
-11 No Answer               10   
-12 &lt;NA&gt;                     0.1 
-13 Mean                    47.8 </code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 13 × 2
-   item            t_shirts
-   &lt;chr&gt;              &lt;dbl&gt;
- 1 &lt;NA&gt;               NA   
- 2 1 month or less     0.07
- 3 2 - 6 months        0.09
- 4 7 to 11 months      0.04
- 5 1 - 2 years         0.22
- 6 3 - 4 years         0.23
- 7 5 or more years     0.35
- 8 2 years or more    NA   
- 9 No Answer          NA   
-10 &lt;NA&gt;               NA   
-11 Mean               39.6 
-12 Median             42   
-13 Table q28          NA   </code></pre>
-</div>
-</div>
 </section>
 <section id="note" class="level2">
 <h2 class="anchored" data-anchor-id="note">Note:</h2>
