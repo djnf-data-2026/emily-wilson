@@ -13,7 +13,7 @@ My story is examining the environmental impact of different materials used to ma
 
 The pitch has been discussed with my editors at Advertising Specialty Institute and largely green-lit. The company’s audience is the promotional products industry, so the intention with this story is to give readers more information on the types of t-shirts they’re buying. There are lots of factors to consider — price, quality, etc — but more organized information about the different materials used to make t-shirts and its respective environmental impact might be helpful for potential buyers to consider. 
 
-The bulk of my work over the course of this week will be to source data on the carbon and water usage from the different cotton blends and document that process. I’ve also created an empty table to help visualize the data I’ll need to find. Rows 4 and 5 are calculations I'll complete once rows 2 and 3 are done. <br> <br>
+<iframe title="Impressions: How many people see you wear the T-shirt?" aria-label="Bar Chart" id="datawrapper-chart-AGdOx" src="https://datawrapper.dwcdn.net/AGdOx/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
 
 ```{r}
 #| include: false
@@ -37,13 +37,7 @@ asi_data_needed <- rio::import("https://docs.google.com/spreadsheets/d/1HyKYvl8N
 #| include: false
 asi_data_needed
 ```
-| Type | Conventional Blend | Organic Blend | Recycled Blend | 50/50 <br> Blend | Tri-Blend | 
-|-----------|:---------:|:-------:|:--------:|:-------:|:-----:|
-|   Carbon Footprint  |    |       |      | | | 
-|  Water Usage  |   |      |     |
-|    Impressions  |    3500 |     3500   |     3500  | 3500 | 3500 | 
-|    Carbon footprint per impression  |     |        |       | | | 
-|    Carbon footprint per impression  |     |       |       |
+
 
 # Progress 
 ## ASI 2026 end-user survey data: 
@@ -117,5 +111,16 @@ Some suppliers that consider their products sustainable create calculators to co
 
 ## Life Cycle Assessment - Cotton
 Another resource that was provided is a Life Cycle Assessment for cotton produced by Textile Exchange, a nonprofit that conducts research on sustainability in the supply chain. This was helpful because it provided a thorough overview of the different steps in the supply chain for cotton production and compares different countries. The assessment uses nitrous oxide emissions to measure the environmental impact, as opposed to water anc carbon, so I'm not able to use it for my project. 
+
+## What if I had the data I needed? 
+
+I would complete a table like this. 
+| Type | Conventional Blend | Organic Blend | Recycled Blend | 50/50 <br> Blend | Tri-Blend | 
+|-----------|:---------:|:-------:|:--------:|:-------:|:-----:|
+|   Carbon Footprint  |    |       |      | | | 
+|  Water Usage  |   |      |     |
+|    Impressions  |    3500 |     3500   |     3500  | 3500 | 3500 | 
+|    Carbon footprint per impression  |     |        |       | | | 
+|    Carbon footprint per impression  |     |       |       |
 
 
