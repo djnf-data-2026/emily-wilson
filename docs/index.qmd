@@ -120,6 +120,7 @@ Another resource that was provided is a Life Cycle Assessment for cotton produce
 ## What if I had the data I needed? 
 
 I would complete a table like this. 
+
 | Type | Conventional Blend | Organic Blend | Recycled Blend | 50/50 <br> Blend | Tri-Blend | 
 |-----------|:---------:|:-------:|:--------:|:-------:|:-----:|
 |   Carbon Footprint  |    |       |      | | | 
