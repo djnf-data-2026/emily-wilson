@@ -9,24 +9,19 @@ editor_options:
   chunk_output_type: inline
 ---
 # Intro 
-My story is examining the environmental impact of different materials used to make T-shirts — one of the most common promotional products distributed in the United States. The environmental impact is measured by carbon footprint and water usage, and the materials I’ll be looking at are five different types of cotton blends. To put the environmental impact into context, I’ll work in data from [Advertising Specialty Institute’s 2026 end-user survey](https://media.asicentral.com/resources/AdImpressionStudy/Ad-Impressions-2026.pdf) about impressions and longevity, and the company’s calculation of impressions over lifespan for T-shirts (3,500).  
-
-The pitch has been discussed with my editors at Advertising Specialty Institute and largely green-lit. The company’s audience is the promotional products industry, so the intention with this story is to give readers more information on the types of t-shirts they’re buying. There are lots of factors to consider — price, quality, etc — but more organized information about the different materials used to make t-shirts and its respective environmental impact might be helpful for potential buyers to consider. <br> <br> 
-
-![T-shirt Graphic](images/tshirtgraphic.png){#fig-example-id width=50% fig-align="left"}
-
-
 
 ::: {layout-ncol=2}
 ::: {#first-column}
-![T-shirt Graphic](images/tshirtgraphic.png){#fig-example-id width=50% fig-align="left"}
-:::
-
-::: {#second-column}
-My story is examining the environmental impact of different materials used to make T-shirts — one of the most common promotional products distributed in the United States. The environmental impact is measured by carbon footprint and water usage, and the materials I’ll be looking at are five different types of cotton blends. To put the environmental impact into context, I’ll work in data from [Advertising Specialty Institute’s 2026 end-user survey](https://media.asicentral.com/resources/AdImpressionStudy/Ad-Impressions-2026.pdf) about impressions and longevity, and the company’s calculation of impressions over lifespan for T-shirts (3,500).  
+My story is examining the environmental impact of different materials used to make T-shirts — one of the most common promotional products distributed in the United States. The environmental impact is measured by carbon footprint and water usage, and the materials I’ll be looking at are five different types of cotton blends. To put the environmental impact into context, I’ll work in data from [Advertising Specialty Institute’s 2026 end-user survey](https://media.asicentral.com/resources/AdImpressionStudy/Ad-Impressions-2026.pdf) about impressions and longevity, and the company’s calculation of impressions over lifespan for T-shirts (3,500).  <br> <br>
 
 The pitch has been discussed with my editors at Advertising Specialty Institute and largely green-lit. The company’s audience is the promotional products industry, so the intention with this story is to give readers more information on the types of t-shirts they’re buying. There are lots of factors to consider — price, quality, etc — but more organized information about the different materials used to make t-shirts and its respective environmental impact might be helpful for potential buyers to consider. <br> <br> :::
 :::
+
+::: {#second-column}
+![T-shirt Graphic (Advertising Specialty Institute)](images/tshirtgraphic.png)
+:::
+::::
+
 
 
 
