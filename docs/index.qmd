@@ -29,17 +29,16 @@ Every year, Advertising Specialty Institute releases survey data showing the imp
 ### Impressions
 In this section of the survey, respondents were asked on average, how many people see them wear a promotional T-shirt when they do. There are no clear trends in the responses, but over three fourths of the respondents say more than six people see the shirt when they wear it. 
 
-<iframe title="Impressions: How many people see you wear the T-shirt?" aria-label="Bar Chart" id="datawrapper-chart-AGdOx" src="https://datawrapper.dwcdn.net/AGdOx/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script> <br> 
-
+<iframe title="Impressions: How many people see you wear the T-shirt?" aria-label="Bar Chart" id="datawrapper-chart-AGdOx" src="https://datawrapper.dwcdn.net/AGdOx/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script> 
 
 ### Longevity
 Respondents were asked how long they tend to keep their T-shirts. Over a third of respondents say they would keep it for over five years, and 80% say they would keep it for a year or longer. <br>
 
 (Note: there's not survey question on what consumers tend to do with T-shirts when they dispose of them, which could have been helpful in the context of recycled cotton.) <br>
 
-<iframe title="Longevity: how long would you keep the T-shirt?" aria-label="Bar Chart" id="datawrapper-chart-RSIs0" src="https://datawrapper.dwcdn.net/RSIs0/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script> <br> 
+<iframe title="Longevity: how long would you keep the T-shirt?" aria-label="Bar Chart" id="datawrapper-chart-RSIs0" src="https://datawrapper.dwcdn.net/RSIs0/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script> 
 
-# Pursuit of environmental impact data <br> <br>
+# Pursuit of environmental impact data <br> 
 
 ### LCA cotton 
 
