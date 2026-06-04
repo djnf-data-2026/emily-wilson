@@ -94,41 +94,105 @@ Figure&nbsp;1: T-shirt Graphic
 </figcaption>
 </figure>
 </div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div id="first-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-example-id" class="quarto-float quarto-figure quarto-figure-left anchored" data-fig-align="left">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-example-id-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/tshirtgraphic.png" class="img-fluid quarto-figure quarto-figure-left figure-img" style="width:50.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-example-id-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: T-shirt Graphic
+</figcaption>
+</figure>
+</div>
+</div>
+<div id="second-column" class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>My story is examining the environmental impact of different materials used to make T-shirts — one of the most common promotional products distributed in the United States. The environmental impact is measured by carbon footprint and water usage, and the materials I’ll be looking at are five different types of cotton blends. To put the environmental impact into context, I’ll work in data from <a href="https://media.asicentral.com/resources/AdImpressionStudy/Ad-Impressions-2026.pdf">Advertising Specialty Institute’s 2026 end-user survey</a> about impressions and longevity, and the company’s calculation of impressions over lifespan for T-shirts (3,500).</p>
+<p>The pitch has been discussed with my editors at Advertising Specialty Institute and largely green-lit. The company’s audience is the promotional products industry, so the intention with this story is to give readers more information on the types of t-shirts they’re buying. There are lots of factors to consider — price, quality, etc — but more organized information about the different materials used to make t-shirts and its respective environmental impact might be helpful for potential buyers to consider. <br> <br> :::</p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <iframe title="Impressions: How many people see you wear the T-shirt?" aria-label="Bar Chart" id="datawrapper-chart-AGdOx" src="https://datawrapper.dwcdn.net/AGdOx/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="" data-external="1">
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 </iframe>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
-<section id="asi-2026-end-user-survey-data" class="level2">
+</div>
+<section id="asi-2026-end-user-survey-data" class="level2 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <h2 class="anchored" data-anchor-id="asi-2026-end-user-survey-data">ASI 2026 end-user survey data:</h2>
 <p>Every year, Advertising Specialty Institute releases survey data</p>
-<p>This is where the 3,500 impressions per lifespan for t-shirts come from. The metric was calculated by the newsroom from the impressions and longevity data, and I found it in this report.</p>
-<p>I can also use this data for context on how often consumers wear their promo t-shirts and how many people see them when they do. In R, I’ve filtered down the dataset to only show this data.</p>
-<iframe title="Longevity: how long would you keep the T-shirt?" aria-label="Bar Chart" id="datawrapper-chart-RSIs0" src="https://datawrapper.dwcdn.net/RSIs0/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="" data-external="1">
-</iframe>
-<script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
-Do consumers care about sustainability? <iframe title="How would your opinion of the company change if you received a sustainably made T-shirt?" aria-label="Bar Chart" id="datawrapper-chart-jY3k1" src="https://datawrapper.dwcdn.net/jY3k1/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="" data-external="1"></iframe>
-<script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
 </section>
-<section id="note" class="level2">
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>This is where the 3,500 impressions per lifespan for t-shirts come from. The metric was calculated by the newsroom from the impressions and longevity data, and I found it in this report.</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>I can also use this data for context on how often consumers wear their promo t-shirts and how many people see them when they do. In R, I’ve filtered down the dataset to only show this data.</p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<iframe title="Longevity: how long would you keep the T-shirt?" aria-label="Bar Chart" id="datawrapper-chart-RSIs0" src="https://datawrapper.dwcdn.net/RSIs0/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="" data-external="1">
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+</iframe>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+Do consumers care about sustainability? <iframe title="How would your opinion of the company change if you received a sustainably made T-shirt?" aria-label="Bar Chart" id="datawrapper-chart-jY3k1" src="https://datawrapper.dwcdn.net/jY3k1/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="" data-external="1"></iframe>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
+</div>
+<section id="note" class="level2 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <h2 class="anchored" data-anchor-id="note">Note:</h2>
 <p>My editor at Advertising Specialty Institute, Theresa Hegel, had initially provided some different calculators for environmental impact. The majority of those are not usable for this analysis, but helpful context for understanding the different steps in the supply chain that can have an environmental impact on the T-shirts.</p>
 </section>
-<section id="bonsai" class="level2">
+</div>
+<div class="quarto-layout-row">
+<section id="bonsai" class="level2 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <h2 class="anchored" data-anchor-id="bonsai">Bonsai:</h2>
 <p><a href="https://www.bonsai.uno/?mode=product&amp;metric=GWP100&amp;version=v2.1.6&amp;product=C_Cotton&amp;region=US&amp;advanced=1&amp;unit=kg">Bonsai</a> is a company that produces sustainability information about products. They have data from cotton lint, ginned, which produces -2.897 kg of carbon dioxide per 1 kg produced. This is interesting information because it indicates that at least one step of cotton production can potentially have a positive impact on the environment by removing carbon emissions, but since it’s for cotton overall and not stratified by cotton type, it’s not necessarily something I can use. It’s also using data from 2016, which is not ideal.</p>
 </section>
-<section id="company-calculators" class="level2">
+<section id="company-calculators" class="level2 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <h2 class="anchored" data-anchor-id="company-calculators">Company calculators:</h2>
 <p>Some suppliers that consider their products sustainable create calculators to compare their environmental impact with that of another company. These are unusable in the data analysis because the newsroom doesn’t want to use a calculator created by a company because there might be bias. One example is <a href="https://everywhereapparel.com/?srsltid=AfmBOoqQqCkUUqy0wPlDRxvOtm2CBkSuPWu1hO5FffgP5kT_ai9N-W5b">Everywhere Apparel</a>, which uses recycled cotton (one of my categories!). That company has information that indicates that for every T-shirt they produce, it saves 1,123 gallons of water, about one fifth of a pound of atmospheric carbon emissions and reduces landfill waste by 0.6 pounds, compared to a regular T-shirt. This is helpful because it indicates the unit of measurement that I could be looking for (gallons for water, pounds for atmospheric carbon emissions).</p>
-<p>Allmade <a href="https://allmade.com/pages/impact">Allmade</a> is a tktktktk. There is also Allmade, which again, only has data for its own products. They do separate the environmental impact based on cotton type, so I can find example data for organic cotton and tri-blend. For recycled cotton, they only have heavyweight T-shirt examples, and I’m not sure if that can be used for this.</p>
-<p>OEKO-TEX Impact Calculator <a href="https://www.hohenstein.us/en-us/oeko-tex/impact-calculator">The OKEO-TEX Impact Calculator</a> is a tktktktk.</p>
 </section>
-<section id="life-cycle-assessment---cotton" class="level2">
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>Allmade <a href="https://allmade.com/pages/impact">Allmade</a> is a tktktktk. There is also Allmade, which again, only has data for its own products. They do separate the environmental impact based on cotton type, so I can find example data for organic cotton and tri-blend. For recycled cotton, they only have heavyweight T-shirt examples, and I’m not sure if that can be used for this.</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<p>OEKO-TEX Impact Calculator <a href="https://www.hohenstein.us/en-us/oeko-tex/impact-calculator">The OKEO-TEX Impact Calculator</a> is a tktktktk.</p>
+</div>
+</div>
+<div class="quarto-layout-row">
+<section id="life-cycle-assessment---cotton" class="level2 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <h2 class="anchored" data-anchor-id="life-cycle-assessment---cotton">Life Cycle Assessment - Cotton</h2>
 <p>Another resource that was provided is a Life Cycle Assessment for cotton produced by Textile Exchange, a nonprofit that conducts research on sustainability in the supply chain. This was helpful because it provided a thorough overview of the different steps in the supply chain for cotton production and compares different countries. The assessment uses nitrous oxide emissions to measure the environmental impact, as opposed to water anc carbon, so I’m not able to use it for my project.</p>
 </section>
-<section id="what-if-i-had-the-data-i-needed" class="level2">
+<section id="what-if-i-had-the-data-i-needed" class="level2 quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
 <h2 class="anchored" data-anchor-id="what-if-i-had-the-data-i-needed">What if I had the data I needed?</h2>
 <p>I would complete a table like this.</p>
+</section>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <table class="caption-top table">
 <colgroup>
 <col style="width: 19%">
@@ -140,7 +204,7 @@ Do consumers care about sustainability? <iframe title="How would your opinion of
 </colgroup>
 <thead>
 <tr class="header">
-<th>Type</th>
+<th style="text-align: left;">Type</th>
 <th style="text-align: center;">Conventional Blend</th>
 <th style="text-align: center;">Organic Blend</th>
 <th style="text-align: center;">Recycled Blend</th>
@@ -150,7 +214,7 @@ Do consumers care about sustainability? <iframe title="How would your opinion of
 </thead>
 <tbody>
 <tr class="odd">
-<td>Carbon Footprint</td>
+<td style="text-align: left;">Carbon Footprint</td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -158,7 +222,7 @@ Do consumers care about sustainability? <iframe title="How would your opinion of
 <td style="text-align: center;"></td>
 </tr>
 <tr class="even">
-<td>Water Usage</td>
+<td style="text-align: left;">Water Usage</td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -166,7 +230,7 @@ Do consumers care about sustainability? <iframe title="How would your opinion of
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
-<td>Impressions</td>
+<td style="text-align: left;">Impressions</td>
 <td style="text-align: center;">3500</td>
 <td style="text-align: center;">3500</td>
 <td style="text-align: center;">3500</td>
@@ -174,7 +238,7 @@ Do consumers care about sustainability? <iframe title="How would your opinion of
 <td style="text-align: center;">3500</td>
 </tr>
 <tr class="even">
-<td>Carbon footprint per impression</td>
+<td style="text-align: left;">Carbon footprint per impression</td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -182,7 +246,7 @@ Do consumers care about sustainability? <iframe title="How would your opinion of
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
-<td>Water usage per impression</td>
+<td style="text-align: left;">Water usage per impression</td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
@@ -191,7 +255,9 @@ Do consumers care about sustainability? <iframe title="How would your opinion of
 </tr>
 </tbody>
 </table>
-</section>
+</div>
+</div>
+</div>
 </section>
 
 </main>
