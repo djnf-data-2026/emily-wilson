@@ -57,7 +57,7 @@ One of the other questions respondents addressed was how a promotional T-shirt b
 
 
 #### OEKO-TEX Impact Calculator
-[The OKEO-TEX Impact Calculator](https://www.hohenstein.us/en-us/oeko-tex/impact-calculator) is a resource produced by Hohenstein, a German company that provides independent research on textile production. Its calculator provides the water and carbon output for the overall process of T-shirt production, but it's unclear if the products can be sorted by material. The current limitation is that it requires a license to use, and I don’t have the license. Other
+[The OKEO-TEX Impact Calculator](https://www.hohenstein.us/en-us/oeko-tex/impact-calculator) is a resource produced by Hohenstein, a German company that provides independent research on textile production. Its calculator provides the water and carbon output for the overall process of T-shirt production, but it's unclear if the products can be sorted by material. The current limitation is that it requires a license to use, and I don’t have the license. 
 
 
 ### Company Calculators 
