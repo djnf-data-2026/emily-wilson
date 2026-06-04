@@ -44,20 +44,20 @@ Respondents were asked how long they tend to keep their T-shirts. Over a third o
 Another resource that was provided is a Life Cycle Assessment for cotton produced by Textile Exchange, a nonprofit that conducts research on sustainability in the supply chain. This was helpful because it provided a thorough overview of the different steps in the supply chain for cotton production and compares different countries. The assessment found that climate change impacts are primarily driven by field emissions of nitrous oxide, resulting from nitrogen fertilizer application. It didn't use water use or carbon emissions to measure environmental impact or stratify by different types of cotton. Although, the assessment did briefly touch on water usage, to note that impacts are almost entirely determined by irrigation water. 
 
 
-### End-User Survey Again: Consumers 
+### End-user survey again: consumers 
 One of the other questions respondents addressed was how a promotional T-shirt being made sustainably would change their opinion of the company it's from. Nearly 70% of consumers would have at least some degree of a more positive opinion of the company, but it's important to note that the T-shirt given to them would be free either way, so it's at no personal cost to the consumer to source sustainably. 
 
 <iframe title="How would your opinion of the company change if you received a sustainably made T-shirt?" aria-label="Bar Chart" id="datawrapper-chart-jY3k1" src="https://datawrapper.dwcdn.net/jY3k1/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
 
 
-### Independent Calculators 
+### Independent calculators of environmental impact
 
 #### Bonsai:  
 [Bonsai](https://www.bonsai.uno/?mode=product&metric=GWP100&version=v2.1.6&product=C_Cotton&region=US&advanced=1&unit=kg) is a company that produces sustainability information about products. They have data from cotton lint, ginned, which produces -2.897 kg of carbon dioxide per 1 kg produced. This is interesting information because it indicates that at least one step of cotton production can potentially have a positive impact on the environment by removing carbon emissions, but since it’s for cotton overall and not stratified by cotton type, it’s not necessarily something I can use. It’s also using data from 2016, which is not ideal. 
 
 
 #### OEKO-TEX Impact Calculator
-[The OKEO-TEX Impact Calculator](https://www.hohenstein.us/en-us/oeko-tex/impact-calculator) is a tktktktk. 
+[The OKEO-TEX Impact Calculator](https://www.hohenstein.us/en-us/oeko-tex/impact-calculator) is a resource produced by Hohenstein, a German company that provides independent research on textile production. Its calculator provides the water and carbon output for the overall process of T-shirt production, but it's unclear if the products can be sorted by material. The current limitation is that it requires a license to use, and I don’t have the license. Other
 
 
 ### Company Calculators <br>
@@ -71,7 +71,7 @@ One of the other questions respondents addressed was how a promotional T-shirt b
 
 # What if? 
 
-I would complete a table like this. 
+### During this week, I was unable to find data breaking down the carbon footprint and water usage of T-shirts based on the material. But here's what I'd do if I did! 
 
 | Type | Conventional Blend | Organic Blend | Recycled Blend | 50/50 <br> Blend | Tri-Blend | 
 |-----------|:---------:|:-------:|:--------:|:-------:|:-----:|
