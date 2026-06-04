@@ -40,9 +40,11 @@ Respondents were asked how long they tend to keep their T-shirts. Over a third o
 
 # Pursuit of environmental impact data <br> 
 
-### LCA cotton 
+### Life Cycle Assessment: Cotton 
+Another resource that was provided is a Life Cycle Assessment for cotton produced by Textile Exchange, a nonprofit that conducts research on sustainability in the supply chain. This was helpful because it provided a thorough overview of the different steps in the supply chain for cotton production and compares different countries. The assessment found that climate change impacts are primarily driven by field emissions of nitrous oxide, resulting from nitrogen fertilizer application. It didn't use water use or carbon emissions to measure environmental impact or stratify by different types of cotton. Although, the assessment did briefly touch on water usage, to note that impacts are almost entirely determined by irrigation water. 
 
-### Consumers care
+
+### End-User Survey Again: Consumers 
 
 
 ### Independent Calculators <br> 
