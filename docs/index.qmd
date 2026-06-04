@@ -13,7 +13,7 @@ My story is examining the environmental impact of different materials used to ma
 
 The pitch has been discussed with my editors at Advertising Specialty Institute and largely green-lit. The company’s audience is the promotional products industry, so the intention with this story is to give readers more information on the types of t-shirts they’re buying. There are lots of factors to consider — price, quality, etc — but more organized information about the different materials used to make t-shirts and its respective environmental impact might be helpful for potential buyers to consider. <br> <br> 
 
-![(Advertising Specialty Institute)](/Users/emilywilson/Desktop/emily-wilson/docs/images/tshirtgraphic.png)
+![T-shirt Graphic](images/tshirtgraphic.png){#fig-example-id width=50% fig-align="left"}
 
 
 <iframe title="Impressions: How many people see you wear the T-shirt?" aria-label="Bar Chart" id="datawrapper-chart-AGdOx" src="https://datawrapper.dwcdn.net/AGdOx/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
