@@ -45,9 +45,12 @@ Another resource that was provided is a Life Cycle Assessment for cotton produce
 
 
 ### End-User Survey Again: Consumers 
+One of the other questions respondents addressed was how a promotional T-shirt being made sustainably would change their opinion of the company it's from. Nearly 70% of consumers would have at least some degree of a more positive opinion of the company, but it's important to note that the T-shirt given to them would be free either way, so it's at no personal cost to the consumer to source sustainably. 
+
+<iframe title="How would your opinion of the company change if you received a sustainably made T-shirt?" aria-label="Bar Chart" id="datawrapper-chart-jY3k1" src="https://datawrapper.dwcdn.net/jY3k1/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
 
 
-### Independent Calculators <br> 
+### Independent Calculators 
 
 #### Bonsai:  
 [Bonsai](https://www.bonsai.uno/?mode=product&metric=GWP100&version=v2.1.6&product=C_Cotton&region=US&advanced=1&unit=kg) is a company that produces sustainability information about products. They have data from cotton lint, ginned, which produces -2.897 kg of carbon dioxide per 1 kg produced. This is interesting information because it indicates that at least one step of cotton production can potentially have a positive impact on the environment by removing carbon emissions, but since it’s for cotton overall and not stratified by cotton type, it’s not necessarily something I can use. It’s also using data from 2016, which is not ideal. 
@@ -58,7 +61,7 @@ Another resource that was provided is a Life Cycle Assessment for cotton produce
 
 
 ### Company Calculators <br>
-#####Sustainable t-shirt companies often have calculators on their websites to show the positive environmental impact their product can have. That data is unusable because it can't be extrapolated to an entire product supply chain, plus the newsroom doesn't want to give promo to one business over another. 
+##### Sustainable t-shirt companies often have calculators on their websites to show the positive environmental impact their product can have. That data is unusable because it can't be extrapolated to an entire product supply chain, plus the newsroom doesn't want to give promo to one business over another. 
 
 #### Everywhere Apparel
 [Everywhere Apparel](https://everywhereapparel.com/?srsltid=AfmBOoqQqCkUUqy0wPlDRxvOtm2CBkSuPWu1hO5FffgP5kT_ai9N-W5b) uses recycled cotton to produce T-shirts. That company has information that indicates that for every T-shirt they produce, it saves 1,123 gallons of water, about one fifth of a pound of atmospheric carbon emissions and reduces landfill waste by 0.6 pounds, compared to a regular T-shirt. This is helpful because it indicates the unit of measurement that I could be looking for (gallons for water, pounds for atmospheric carbon emissions). <br> 
