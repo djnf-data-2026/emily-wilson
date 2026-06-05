@@ -55,9 +55,18 @@ Respondents were asked how long they tend to keep their T-shirts. Over a third o
 
 # Pursuit of environmental impact data <br>
 
-### Life Cycle Assessment: Cotton
+### Textile Exchange: Cotton Life Cycle Assessment
 
 Another resource that was provided by the newsroom is a Life Cycle Assessment for cotton produced by [Textile Exchange](https://textileexchange.org/knowledge-center/reports/cotton-life-cycle-assessment/), a nonprofit that conducts research on sustainability in the supply chain. This was helpful because it provided a thorough overview of the different steps in the supply chain for cotton production and compares different countries. The assessment found that climate change impacts are primarily driven by field emissions of nitrous oxide, resulting from nitrogen fertilizer application. It didn't use water use or carbon emissions to measure environmental impact or stratify by different types of cotton. Although, the assessment did briefly touch on water usage, to note that impacts are almost entirely determined by irrigation water.
+
+### Cotton Incorporated: Cotton Life Cycle Assessment 
+Cotton Incorporated is nonprofit research organization founded by cotton growers and importers. In 2019, the company released its own [life cycle assessment for cotton](https://cottontoday.cottoninc.com/wp-content/uploads/2019/11/2016-LCA-Full-Report-Update.pdf), including how much water cotton uses from cradle to gate. Cradle to gate stops tracking consumption when the product reaches the manufacturer - before a T-shirt would have any impressions. Cradle to grave metrics may include water usage in the form of washing a T-shirt over its lifespan and would be better for this project. Nearly 82% of the water used in cotton production is used for irrigation. The report also notes that 2,235 cubic meters of blue water is used to produce 1,000 kg of cotton fiber. <br> 
+
+That converts to 590,424 gallons of water per 1,000 kg of cotton fiber. According to the California Cotton Ginners and Growers Association, a T-shirt contains 0.22 kg of cotton fiber on average, so per T-shirt, about 129.8 gallons of water are used.  
+
+This can give us an approximate of water usage per impression for T-shirts, though with the major caveat the water usage data is only cradle to gate. 
+
+
 
 ### End-user survey again: consumers
 
@@ -99,7 +108,10 @@ Only one the top 10 companies listed on Advertising Specialty Institute's [Top D
 
 # What if?
 
-#### \[During this week, I was unable to find data breaking down the carbon footprint and water usage of T-shirts based on the material. But here's what I'd do if I did!\]
+#### \[During this week, I was unable to find data breaking down the carbon footprint and water usage of T-shirts based on the material. But here's what I'd do if I did!\] 
+Notes:
+Only 2.8% of cotton production in the United States is organic, per Cotton Incorporated. 
+
 
 | Type | Conventional Blend | Organic Blend | Recycled Blend | 50/50 <br> Blend | Tri-Blend |
 |------------|:----------:|:----------:|:----------:|:----------:|:----------:|
